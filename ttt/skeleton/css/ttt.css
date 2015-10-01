@@ -1,0 +1,39 @@
+#game{
+  width: 599px;
+  height: 600px;
+  border: 2px solid black;
+  margin: auto;
+  padding: 0px;
+}
+
+.square{
+  width: 198px;
+  height: 199px;
+  border: 1px solid black;
+  float: left;
+  margin: 0px;
+  background-color: #eee;
+  font-size: 150px;
+  text-align:center;
+}
+
+.selected{
+  background-color: white;
+}
+
+.selected:hover{
+  background-color: white;
+  cursor: inherit;
+}
+
+.square:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+ul{
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}

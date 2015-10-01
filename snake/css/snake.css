@@ -1,0 +1,32 @@
+#game{
+  height: 400px;
+  width: 400px;
+
+  border: 1px solid black;
+  margin: auto;
+}
+
+.row{
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.square{
+  width: 40px;
+  height: 40px;
+  border: 1px solid green;
+  list-style-type: none;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.snake{
+  background-color: wheat;
+}
+
+.pickup{
+  background-color: red;
+}
